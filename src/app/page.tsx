@@ -13,7 +13,7 @@ import Welcome from './welcome/welcome';
 export default function Home() {
     // return (Portfolio())
     return (
-        <div className='container mx-2 sm:mx-auto h-full'>
+        <div className='container p-4 sm:mx-auto'>
             <Top />
             
             <Welcome />

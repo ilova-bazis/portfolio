@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { FaLinkedinIn, FaSquareGithub, FaSquareInstagram, FaSquareXTwitter } from 'react-icons/fa6';
 export default function Welcome() {
     return (
-        <div className="flex flex-col md:flex-row gap-4 max-w-screen-xl mx-auto justify-center items-center sm:h-3/4 pt-11">
+        <div className="flex flex-col md:flex-row gap-4 max-w-screen-xl mx-auto justify-center items-center md:h-3/4 pt-11">
             <div className="flex-none justify-center items-center sm:min-w-72">
                 <div className='float-right flex flex-col justify-center items-center w-full'>
                 <Image src='/me.png' alt="Profile" width={200} height={200} className='w-32 h-32' />
