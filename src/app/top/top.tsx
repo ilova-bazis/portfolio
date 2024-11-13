@@ -11,7 +11,7 @@ export default function Top() {
                     <Link className="flex flex-row justify-items-start items-center gap-2" href="/">
                         <Image src='/logo.svg' alt="Logo" width={44} height={44} className='w-22 h-22' />
                         <div className="flex flex-col sm:flex-row gap-0 items-start justify-center">   
-                            <div className="flex flex-row gap-2 items-center mb-0 pb-0"><h1 className="font-bold text-base sm:text-2xl">Farzon Nosiri</h1><span className='sm:text-2xl text-orange-600 '>/</span></div>
+                            <div className="flex flex-row gap-2 items-center mb-0 pb-0"><h1 className="font-bold text-base sm:text-2xl">FARZON NOSIRI</h1><span className='sm:text-2xl text-orange-600 '>/</span></div>
                             <h2 className="text-orange-600 mt-0 pt-0 font-medium sm:text-2xl">Software Engineer</h2>
 
                         </div>
