@@ -47,5 +47,12 @@
     "message": "slow motion to be done fast",
     "timestamp": "2025-06-27T15:46:40.029Z",
     "ip": ""
+  },
+  {
+    "name": "Hello My name is Dimjo",
+    "email": "dimjo@gmail.com",
+    "message": "Are you interested in working with the X company ?",
+    "timestamp": "2025-06-27T17:40:37.641Z",
+    "ip": ""
   }
 ]

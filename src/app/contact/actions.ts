@@ -1,4 +1,5 @@
 "use server";
+import { sendTelegramMessage } from '@/lib/teelgram';
 import { promises as fs } from 'fs';
 import path from 'path';
 
@@ -67,6 +68,8 @@ export async function sendEmail(formData: FormData): Promise<{ success: boolean;
         );
 
         console.log('Form submission saved:', submission);
+        
+        await sendTelegramNotification(submission);
 
         return {
             success: true,
@@ -79,4 +82,19 @@ export async function sendEmail(formData: FormData): Promise<{ success: boolean;
             message: 'Failed to save your message. Please try again later.'
         };
     }
+}
+
+export async function sendTelegramNotification(submission: { name: string; email: string; message: string; timestamp: string; ip: string }): Promise<boolean> {
+    const tgMessage = `
+📬 <b>New Contact Form Submission</b>
+━━━━━━━━━━━━━━
+👤 <b>Name:</b> ${submission.name}
+📧 <b>Email:</b> <code>${submission.email}</code>
+📝 <b>Message:</b>
+${submission.message}
+━━━━━━━━━━━━━━
+⏰ ${new Date().toLocaleString()}
+        `.trim();
+    console.log('Telegram message:', tgMessage);
+    return await sendTelegramMessage(tgMessage);
 }
