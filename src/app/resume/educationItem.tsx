@@ -27,7 +27,7 @@ const Education: React.FC<EducationProps> = ({ education }) => {
                     {item.degreeLevel} {item.degreeName}
                   </h3>
                   <p className="text-orange-800 font-semibold">{item.institution}</p>
-                  <p clas6666e="text-gray-600">{item.location}</p>
+                  <p className="text-gray-600">{item.location}</p>
                 </div>
                 <div className="text-gray-500 text-sm whitespace-nowrap">
                   {item.date}
