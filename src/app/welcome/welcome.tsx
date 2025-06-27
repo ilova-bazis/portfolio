@@ -50,10 +50,10 @@ export default function Welcome() {
 
                     {/* Buttons */}
                     <div className="flex gap-4 justify-center mb-2">
-                    <Link  href="/farzon_nosiri_resume_v2.pdf" target='_blank' className="px-6 py-2 bg-black text-white rounded hover:bg-gray-800">
+                    <Link  href="/resume" className="px-6 py-2 bg-black text-white rounded hover:bg-gray-800">
                         Resume
                     </Link>
-                    <Link  href="/portfolio" target='_blank' className="px-6 py-2 bg-orange-500 text-white rounded hover:bg-orange-600">
+                    <Link  href="/coming-soon" className="px-6 py-2 bg-orange-500 text-white rounded hover:bg-orange-600">
                         Portfolio
                     </Link>
                     

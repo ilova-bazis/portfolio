@@ -19,9 +19,10 @@ export default function Top() {
                 </div>
                 <div className='w-full sm:block sm:w-auto'>
                     <div className="fixed flex sm:relative bottom-0 left-0 z-50 w-full h-16  flex-row gap-4 sm:h-auto items-center mt-4 justify-center bg-gray-200 sm:bg-inherit sm:justify-normal shadow sm:shadow-none shadow-slate-400">
-                        <div><Link className="text-lg active:text-orange-600" href="/portfolio">Portfolio</Link></div>|
-                        <div><Link className='text-lg active:text-orange-600' target='_blank' href="/farzon_nosiri_resume_v2.pdf">Resume</Link></div>|
-                        <div><Link className='text-lg active:text-orange-600' href="/contact">Contact Me</Link></div>
+                        <div><Link className="text-lg active:text-orange-600" href="/coming-soon">Portfolio</Link></div>|
+                        <div><Link className='text-lg active:text-orange-600' href="/resume">Resume</Link></div>|
+                        <div><Link className='text-lg active:text-orange-600' href="/contact">Contact Me</Link></div>|
+                        <div><Link className='text-lg active:text-orange-600' href="/blog">Blog</Link></div>
                     </div>
                 </div>
             </div>

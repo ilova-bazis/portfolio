@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Top from "./top/top";
+import Footer from "./footer/footer";
 
 export const metadata: Metadata = {
   title: "Farzon Nosiri Portfolio",
@@ -16,7 +18,11 @@ export default function RootLayout({
       <body
         className={`h-dvh`}
       >
+         <div className='container p-4 sm:mx-auto'>
+         <Top />
         {children}
+        <Footer />
+        </div>
       </body>
     </html>
   );
