@@ -34,7 +34,7 @@ const Experience: React.FC<ExperienceProps> = ({ experiences }) => {
               // className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" 
              
             >
-              <FaDownload /><span className="leading-none"> Download Resume</span> 
+              <FaDownload /><span className="leading-none hidden sm:block"> Download Resume</span> 
             </a>
         </div>
         <div className="space-y-8">
