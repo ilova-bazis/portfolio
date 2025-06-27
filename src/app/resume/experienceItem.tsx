@@ -19,7 +19,7 @@ const Experience: React.FC<ExperienceProps> = ({ experiences }) => {
   const sortedExperiences = [...experiences].sort((a, b) => {
     const dateA = new Date(a.dateTo || 'Present');
     const dateB = new Date(b.dateTo || 'Present');
-    return dateB.getTime() - dateA.getTime(); // Use getTime() for reliable comparison
+    return dateB.getTime() - dateA.getTime(); 
   });
 
   return (
@@ -40,15 +40,15 @@ const Experience: React.FC<ExperienceProps> = ({ experiences }) => {
         <div className="space-y-8">
           {sortedExperiences.map((experience, index) => (
             <div key={index} className="bg-neutral-200 rounded-lg shadow-md p-6">
-              <div className="md:flex md:justify-between md:items-start mb-4"> {/* Added md:flex and other md: classes */}
+              <div className="md:flex md:justify-between md:items-start mb-4"> 
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-1 md:mb-0"> {/* Added margin bottom for small screens */}
+                  <h3 className="text-xl font-semibold text-gray-800 mb-1 md:mb-0"> 
                     {experience.jobTitle}
                   </h3>
                   <p className="text-orange-800 font-semibold">{experience.companyName}</p>  
                   <p className="text-gray-600">{experience.location}</p> 
                 </div>
-                <div className="text-gray-500 text-sm whitespace-nowrap md:text-right"> {/* Added md:text-right */}
+                <div className="text-gray-500 text-sm whitespace-nowrap md:text-right"> 
                   {experience.dateFrom} - {experience.dateTo || 'Present'}
                 </div>
               </div>

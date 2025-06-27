@@ -21,7 +21,7 @@ const Education: React.FC<EducationProps> = ({ education }) => {
         <div className="space-y-8">
           {education.map((item, index) => (
             <div key={index} className="bg-neutral-200 rounded-lg shadow-md p-6">
-              <div className="flex justify-between items-start mb-2"> {/* Added flex for title and date */}
+              <div className="flex justify-between items-start mb-2"> 
                 <div>
                   <h3 className="text-xl font-semibold text-gray-800">
                     {item.degreeLevel} {item.degreeName}

@@ -23,7 +23,7 @@ export default function Footer() {
                 </div>
             </div>
             <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-            <span className="block text-sm text-gray-900 sm:text-center dark:text-gray-900 pb-16 sm:pb-0">© 2024 <Link href="https://farzon.dev/" className="hover:underline">Farzon.dev</Link>. All Rights Reserved.</span>
+            <span className="block text-sm text-gray-900 sm:text-center dark:text-gray-900 pb-16 sm:pb-0">© 2025 <Link href="https://farzon.dev/" className="hover:underline">Farzon.dev</Link>. All Rights Reserved.</span>
             </div>
         </footer>
     );
