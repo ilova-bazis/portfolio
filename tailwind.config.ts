@@ -12,10 +12,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+
       },
       typography: {
         DEFAULT: {
           css: {
+            '--tw-prose-bullets': '#f97316',
             maxWidth: '65ch',
             color: '#333',
             a: {
@@ -41,6 +43,11 @@ export default {
               padding: '1rem',
               overflowX: 'auto',
             },
+            li: {
+              '::marker': {
+                color: '#f97316',
+              }
+            }
           },
         },
       },

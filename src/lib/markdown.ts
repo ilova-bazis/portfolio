@@ -7,6 +7,7 @@ import remarkParse from 'remark-parse';
 import remarkRehype from 'remark-rehype';
 import rehypeStringify from 'rehype-stringify';
 import rehypePrism from 'rehype-prism-plus';
+import remarkGfm from "remark-gfm";
 
 const postDirectory = path.join(process.cwd(), "posts");
 
@@ -44,6 +45,7 @@ export async function getPostData(id: string): Promise<PostData> {
     const matterResult = matter(fileContents);
     const processedContent = await remark()
     .use(remarkParse)
+    .use(remarkGfm)
     .use(remarkRehype)
     .use(rehypePrism)
     .use(rehypeStringify)

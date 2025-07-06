@@ -20,3 +20,7 @@ body {
   background: var(--background);
   font-family: 'Courier New', Courier, monospace;
 }
+
+li::marker {
+  color: #f97316;
+}
