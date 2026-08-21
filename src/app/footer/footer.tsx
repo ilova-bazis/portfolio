@@ -30,7 +30,7 @@ export default function Footer() {
                 </div>
                 <div className="w-full h-px bg-gray-300 mb-6" />
                 <span className="text-xs text-gray-500">
-                    © 2025 <Link href="https://farzon.dev/" className="hover:text-orange-500 transition-colors duration-200">Farzon.dev</Link>. All Rights Reserved.
+                    © 2026 <Link href="https://farzon.dev/" className="hover:text-orange-500 transition-colors duration-200">Farzon.dev</Link>. All Rights Reserved.
                 </span>
             </div>
         </footer>
