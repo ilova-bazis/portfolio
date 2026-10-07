@@ -185,8 +185,8 @@ export default function Experience({ experiences }: ExperienceProps) {
 
           return (
             <div key={item.id} className="relative group">
-              {/* Timeline Marker Node */}
-              <div className="absolute -left-6 sm:-left-10 top-6 -translate-x-1/2 flex items-center justify-center">
+              {/* Center the marker on the 2px line, accounting for timeline padding. */}
+              <div className="absolute -left-[15px] sm:-left-[25px] top-6 -translate-x-1/2 flex items-center justify-center">
                 <div className={`w-3.5 h-3.5 rotate-45 transition-transform duration-200 border-2 ${
                   item.featured 
                     ? 'bg-orange-500 border-neutral-900 scale-125' 

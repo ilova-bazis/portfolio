@@ -8,7 +8,7 @@ const experienceData: ExperienceItem[] = [
   {
     id: "colorado-spirit",
     companyName: "COLORADO SPIRIT HOME CARE, INC.",
-    jobTitle: "Software Engineer",
+    jobTitle: "Senior Software Engineer",
     dateFrom: "2026-01",
     dateTo: "Present",
     tenure: "Current Role",
@@ -45,7 +45,7 @@ const experienceData: ExperienceItem[] = [
   {
     id: "independent-researcher",
     companyName: "INDEPENDENT RESEARCHER",
-    jobTitle: "Independent Researcher (Systems & BioTech)",
+    jobTitle: "Independent Researcher",
     dateFrom: "2024-01",
     dateTo: "2025-12",
     tenure: "2 yrs",
@@ -80,7 +80,7 @@ const experienceData: ExperienceItem[] = [
   {
     id: "nexus-lead",
     companyName: "NEXUS TECHNOLOGIES, LLC",
-    jobTitle: "Team Lead / Senior Software Engineer",
+    jobTitle: "Senior Software Engineer / Team Lead",
     dateFrom: "2018-09",
     dateTo: "2023-12",
     tenure: "5 yrs 4 mos",
@@ -152,8 +152,8 @@ const experienceData: ExperienceItem[] = [
   },
   {
     id: "nexus-consultant",
-    companyName: "INDEPENDENT / NEXUS TECHNOLOGIES",
-    jobTitle: "Software Development Consultant",
+    companyName: "STARGROUP",
+    jobTitle: "Software Developer",
     dateFrom: "2017-10",
     dateTo: "2018-09",
     tenure: "1 yr",
@@ -192,7 +192,7 @@ const experienceData: ExperienceItem[] = [
   {
     id: "bank-imon",
     companyName: "BANK IMON INTERNATIONAL",
-    jobTitle: "Cybersecurity Analyst & Ethical Hacker",
+    jobTitle: "Leading IT Security Specialist",
     dateFrom: "2014-08",
     dateTo: "2017-10",
     tenure: "3 yrs 3 mos",
@@ -227,7 +227,7 @@ const experienceData: ExperienceItem[] = [
   {
     id: "sensotronica",
     companyName: "SENSOTRONICA LTD.",
-    jobTitle: "Program Manager & Tester",
+    jobTitle: "Project Manager & Tester",
     dateFrom: "2013-11",
     dateTo: "2014-05",
     tenure: "7 mos",
@@ -278,9 +278,9 @@ const experienceData: ExperienceItem[] = [
     id: "karolinska",
     companyName: "KAROLINSKA INSTITUTET",
     jobTitle: "Research Assistant",
-    dateFrom: "2012-12",
-    dateTo: "2013-02",
-    tenure: "3 mos",
+    dateFrom: "2011-05",
+    dateTo: "2012-06",
+    tenure: "1 yr 2 mos",
     location: "Stockholm, Sweden",
     roleType: "Research • Computational Biology",
     tracks: ['research'],

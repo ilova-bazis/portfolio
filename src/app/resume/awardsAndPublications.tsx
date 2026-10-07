@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiAward, FiBook, FiUsers, FiCheckCircle } from 'react-icons/fi';
+import { FiAward, FiBook, FiUsers } from 'react-icons/fi';
 
 export interface AwardItem {
   title: string;
@@ -10,6 +10,7 @@ export interface AwardItem {
 export interface PublicationItem {
   title: string;
   domain: string;
+  url: string;
 }
 
 export interface MembershipItem {
@@ -45,15 +46,18 @@ export default function AwardsAndPublications() {
   const publications: PublicationItem[] = [
     {
       title: "Performance Optimization Techniques for Microservice Architectures in High-Load Scenarios",
-      domain: "Distributed Systems & Scalability"
+      domain: "Distributed Systems & Scalability",
+      url: "https://doi.org/10.9734/ajrcos/2025/v18i3577"
     },
     {
       title: "Regulation of OCT-2",
-      domain: "Computational Biology & Gene Regulation"
+      domain: "Computational Biology & Gene Regulation",
+      url: "http://ijses.com/wp-content/uploads/2025/02/63-IJSES-V9N1.pdf"
     },
     {
       title: "Evaluation of Software for Next-Generation Sequencing in Mapping",
-      domain: "Bioinformatics & Sequence Alignment"
+      domain: "Bioinformatics & Sequence Alignment",
+      url: "https://www.arjonline.org/admin/assets/open-access/evaluation-of-software-of-next-generation-sequencing-in-mapping-165.pdf"
     }
   ];
 
@@ -130,9 +134,14 @@ export default function AwardsAndPublications() {
             <div className="space-y-3">
               {publications.map((pub, idx) => (
                 <div key={idx} className="p-2.5 bg-neutral-100/90 border-l-2 border-orange-500">
-                  <div className="text-xs font-bold text-gray-900 leading-snug">
+                  <a
+                    href={pub.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block text-xs font-bold text-gray-900 leading-snug hover:text-orange-600 hover:underline"
+                  >
                     “{pub.title}”
-                  </div>
+                  </a>
                   <div className="text-[11px] font-mono text-orange-600 font-semibold mt-1">
                     {pub.domain}
                   </div>

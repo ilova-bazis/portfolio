@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaDownload } from "react-icons/fa6";
-import { FiCpu, FiUsers, FiShield, FiTrendingUp, FiCheckCircle, FiAward, FiZap } from "react-icons/fi";
+import { FiCpu, FiUsers, FiTrendingUp, FiCheckCircle, FiAward } from "react-icons/fi";
 
 export default function ExecutiveSummary() {
   const quickStats = [
@@ -81,21 +81,21 @@ export default function ExecutiveSummary() {
           <div className="space-y-2 max-w-3xl">
             <div className="flex flex-wrap items-center gap-2">
               <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 bg-orange-500/20 text-orange-400 text-xs font-bold uppercase tracking-wider border border-orange-500/30 font-mono">
-                <span>●</span> Executive Recruiter Brief
+                <span>●</span> Professional Summary
               </div>
               <span className="text-xs text-neutral-400 font-mono">Denver, CO • Senior Member, IEEE</span>
             </div>
             <h1 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
-              Farzon Nosiri — Senior Software Engineer | Technical Lead
+              Farzon Nosiri — Senior Software Engineer | Technical Lead | Distributed Systems | Applied AI
             </h1>
             <p className="text-neutral-300 text-sm sm:text-base leading-relaxed">
-              Award-winning Senior Software Engineer and Technical Lead with nearly two decades of experience designing scalable distributed systems, modernizing legacy architectures for B2B growth, and engineering production AI/LLM workflows, RAG pipelines, and high-performance backends.
+              Accomplished Senior Software Engineer and Technical Lead with 10+ years of experience building scalable distributed systems, backend platforms, and AI-powered applications. Recent work focuses on applied AI engineering, including LLM integration, RAG, agentic workflows, semantic search, OCR model fine-tuning, and speech AI. Proven experience designing high-scale architectures, leading cross-functional engineering teams, and translating business requirements into reliable production systems. Delivered platform transformations supporting B2B growth and performance improvements of approximately 500%, with additional experience in cybersecurity and secure systems engineering.
             </p>
           </div>
 
           <div className="flex flex-col sm:flex-row lg:flex-col gap-3 shrink-0">
             <a
-              href="/Farzon_Nosiri_resume_new_design.pdf"
+              href="/farzon_nosiri_resume_ver2.pdf"
               download
               className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-orange-500 text-neutral-950 font-bold text-sm hover:bg-orange-400 transition-colors duration-200 shadow-md"
             >
